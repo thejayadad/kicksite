@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      sectionPadding: {
+        p: "50px"
+      },
       fontFamily: {
         oswald: "Oswald, sans-serif",
         urbanist: "Urbanist, sans-serif",
