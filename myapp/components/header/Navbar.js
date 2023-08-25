@@ -10,7 +10,7 @@ const Navbar = () => {
   const menuLinks = [
     { text: 'Home', link: '/' },
     { text: 'About', link: '/about' },
-    { text: 'Services', link: '/services' },
+    { text: 'Contact', link: '/contact' },
   ];
 
   const toggleMobileMenu = () => {
@@ -18,7 +18,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="w-full bg-primary text-white z-20 sticky top-0">
+    <header className="w-full text-primary z-20 sticky top-0">
       <Box className="h-[100px] flex justify-between items-center px-4 md:px-8">
         <Link href={'/'} className="w-[40px] md:w-[60px]">
           KickShare
