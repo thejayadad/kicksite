@@ -40,7 +40,7 @@ const HeroSection = () => {
       <div className="absolute top-0 left-0 w-full h-[600px] md:h-[700px] border-t-8 border-secondary"></div>
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center z-10">
         <h1 className="text-5xl md:text-6xl font-bold mb-6">
-          Welcome to Our Store
+          Welcome to KickShare
         </h1>
         <p className="text-xl md:text-2xl mb-10">
           Discover the latest trends in footwear.

@@ -38,14 +38,14 @@ const TestimonialSection = () => {
   return (
     <section className="py-16 bg-gray-100">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
+        <h2 className="text-3xl md:text-4xl font-light text-center mb-8">
           Testimonials
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="bg-white p-6 shadow-md rounded-lg"
+              className="bg-white p-6 shadow-md rounded-lg transition-transform duration-300 hover:scale-105 cursor-pointer"
             >
               <div className="flex items-center mb-4">
                 <img

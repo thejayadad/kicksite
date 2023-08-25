@@ -2,7 +2,9 @@
 import React, { useState } from 'react';
 import Box from '../Box';
 import Link from 'next/link';
-import { FaShoppingCart, FaBars, FaTimes } from 'react-icons/fa'; // Import icons
+import { FaShoppingCart, FaBars, FaTimes } from 'react-icons/fa'; 
+import logo from "../../public/logo.png"
+import Image from 'next/image';
 
 const Navbar = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
@@ -20,8 +22,12 @@ const Navbar = () => {
   return (
     <header className="w-full text-primary z-20 sticky top-0">
       <Box className="h-[100px] flex justify-between items-center px-4 md:px-8">
-        <Link href={'/'} className="w-[40px] md:w-[60px]">
-          KickShare
+        <Link href={'/'} className="w-[120px] md:w-[140px]">
+          <Image 
+            height={200}
+            width={200}
+            src={logo}
+          />
         </Link>
         <div className="hidden md:flex space-x-5">
           {menuLinks.map((link, index) => (

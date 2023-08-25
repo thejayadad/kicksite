@@ -23,7 +23,7 @@ const FeaturedItemSection = () => {
   return (
     <section className="py-16 bg-gray-100">
       <div className="container mx-auto px-4">
-        <h2 className="text-secondary text-3xl md:text-4xl text-center mb-8">
+        <h2 className="text-gray-900 text-3xl md:text-4xl text-light text-center mb-8">
           Featured Items
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
