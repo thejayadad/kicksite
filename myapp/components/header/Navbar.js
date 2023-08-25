@@ -20,7 +20,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="w-full text-primary z-20 sticky top-0">
+    <header className="w-full text-primary z-20 sticky top-0 ">
       <Box className="h-[100px] flex justify-between items-center px-4 md:px-8">
         <Link href={'/'} className="w-[120px] md:w-[140px]">
           <Image 

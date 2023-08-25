@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 
 const ProductDetail = ({ product }) => {
   const [quantity, setQuantity] = useState(1);
-  const [totalPrice, setTotalPrice] = useState(product.price);
+//   const [totalPrice, setTotalPrice] = useState(product.price);
 
   const handleQuantityChange = (event) => {
     const newQuantity = parseInt(event.target.value);
@@ -21,8 +21,8 @@ const ProductDetail = ({ product }) => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
           <img
-            src={product.image}
-            alt={product.name}
+            src="https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt=""
             className="w-full md:w-1/2 h-auto object-cover mb-6 md:mb-0"
           />
           <div className="md:ml-6 w-full md:w-1/2">
@@ -42,7 +42,7 @@ const ProductDetail = ({ product }) => {
                 onChange={handleQuantityChange}
               />
               <p className="text-gray-700 font-bold text-xl">
-                Total: ${totalPrice.toFixed(2)}
+                Total: $6.99
               </p>
             </div>
             <button
