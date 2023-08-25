@@ -17,7 +17,7 @@ const ProductDetail = ({ product }) => {
   };
 
   return (
-    <section className="py-16 bg-gray-100">
+    <section className="py-16 bg-gray-100 border-t-8 border-secondary">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
           <img

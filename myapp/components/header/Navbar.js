@@ -31,7 +31,7 @@ const Navbar = () => {
         </Link>
         <div className="hidden md:flex space-x-5">
           {menuLinks.map((link, index) => (
-            <Link key={index} href={link.link} className="hover:underline hover:text-yellow-300">
+            <Link key={index} href={link.link} className="hover:underline hover:text-secondary">
               {link.text}
             </Link>
           ))}
