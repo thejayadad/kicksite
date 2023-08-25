@@ -4,26 +4,26 @@ import React from 'react';
 const FeaturedItemSection = () => {
   const featuredItems = [
     {
-      image: 'https://images.pexels.com/photos/17115832/pexels-photo-17115832/free-photo-of-back-view-of-blonde-woman-in-coat.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
-      title: 'Product 1',
-      description: 'Description for Product 1.',
+      image: 'https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      title: 'Nike Zoom Swish',
+      description: 'Custom Fit Nike Zoom Swish',
     },
     {
-      image: 'https://images.pexels.com/photos/18021349/pexels-photo-18021349/free-photo-of-mujer-en-cascada.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      title: 'Product 2',
-      description: 'Description for Product 2.',
+      image: 'https://images.pexels.com/photos/1698359/pexels-photo-1698359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      title: 'Nike One"s',
+      description: 'Custom Color Nike One"s',
     },
     {
-      image: 'https://images.pexels.com/photos/18021349/pexels-photo-18021349/free-photo-of-mujer-en-cascada.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      title: 'Product 3',
-      description: 'Description for Product 3.',
+      image: 'https://images.pexels.com/photos/3208298/pexels-photo-3208298.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      title: 'Calf High Boots',
+      description: 'All Purpose Calf High Boots',
     },
   ];
 
   return (
     <section className="py-16 bg-gray-100">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
+        <h2 className="text-secondary text-3xl md:text-4xl text-center mb-8">
           Featured Items
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

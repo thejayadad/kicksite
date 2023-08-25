@@ -4,11 +4,11 @@ import React from 'react';
 const GallerySection = () => {
   const galleryImages = [
     'https://images.pexels.com/photos/17503539/pexels-photo-17503539/free-photo-of-back-of-a-woman-fixing-her-hair-on-a-roof.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    '/gallery2.jpg',
-    '/gallery3.jpg',
-    '/gallery4.jpg',
-    '/gallery5.jpg',
-    '/gallery6.jpg',
+    'https://images.pexels.com/photos/17503539/pexels-photo-17503539/free-photo-of-back-of-a-woman-fixing-her-hair-on-a-roof.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    'https://images.pexels.com/photos/17503539/pexels-photo-17503539/free-photo-of-back-of-a-woman-fixing-her-hair-on-a-roof.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    'https://images.pexels.com/photos/17503539/pexels-photo-17503539/free-photo-of-back-of-a-woman-fixing-her-hair-on-a-roof.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    'https://images.pexels.com/photos/17503539/pexels-photo-17503539/free-photo-of-back-of-a-woman-fixing-her-hair-on-a-roof.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    'https://images.pexels.com/photos/17503539/pexels-photo-17503539/free-photo-of-back-of-a-woman-fixing-her-hair-on-a-roof.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
   ];
 
   return (
@@ -26,18 +26,9 @@ const GallerySection = () => {
               <img
                 src={image}
                 alt={`Gallery Image ${index + 1}`}
-                className="w-full h-96 object-cover"
+                className="w-full h-full object-cover"
               />
-              <div className="p-4">
-                <h3 className="text-lg font-semibold mb-2">
-                  Popular Sold Kick
-                </h3>
-                <p className="text-gray-600">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  gravida ex ut libero tristique, eget feugiat ipsum blandit.
-                </p>
-              </div>
-            </div>
+          </div>
           ))}
         </div>
       </div>

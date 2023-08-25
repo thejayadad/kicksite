@@ -3,8 +3,8 @@ import React from 'react';
 const Contact = () => {
   return (
     <section className="py-16 bg-gray-100">
-      <div className="container mx-auto px-4 h-screen">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
+      <div className="container mx-auto px-4 h-[900px]">
+        <h2 className="text-gray-600 text-3xl md:text-4xl font-bold text-center mb-8">
           Contact Us
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
@@ -47,7 +47,7 @@ const Contact = () => {
               </div>
               <button
                 type="submit"
-                className="bg-secondary text-white py-2 px-4 rounded-lg hover:bg-secondary-dark transition duration-300"
+                className="bg-primary text-white py-2 px-4 rounded-lg hover:bg-secondary-dark transition duration-300"
               >
                 Send Message
               </button>

@@ -32,7 +32,7 @@ const Navbar = () => {
         </div>
         <div className="flex items-center space-x-4">
         <span className="relative z-10">
-            <FaShoppingCart size={20} color="white" />
+            <FaShoppingCart size={20}  />
             <span className="absolute -top-4 -right-2 bg-gray-200 text-red text-lg rounded-full w-5 h-5 flex items-center justify-center">
             3 
             </span>
@@ -41,7 +41,7 @@ const Navbar = () => {
         </div>
         <div className="md:hidden">
           <button onClick={toggleMobileMenu}>
-            {mobileMenu ? <FaTimes size={20} color="white" /> : <FaBars size={20} color="white" />}
+            {mobileMenu ? <FaTimes size={20} /> : <FaBars size={20} />}
           </button>
         </div>
       </Box>

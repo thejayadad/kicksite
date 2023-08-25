@@ -9,27 +9,27 @@ const TestimonialSection = () => {
       text: "I'm really satisfied with the product. It exceeded my expectations!",
     },
     {
-      image: '/testimonial2.jpg',
+      image: 'https://images.pexels.com/photos/2228561/pexels-photo-2228561.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       name: 'Jane Smith',
       text: "The customer service is top-notch. They went above and beyond to help me.",
     },
     {
-      image: '/testimonial3.jpg',
+      image: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       name: 'Alex Johnson',
       text: 'The quality and value for the price is unmatched. Highly recommended!',
     },
     {
-        image: '/testimonial1.jpg',
+        image: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
         name: 'John Doe',
         text: "I'm really satisfied with the product. It exceeded my expectations!",
       },
       {
-        image: '/testimonial2.jpg',
+        image: 'https://images.pexels.com/photos/3993256/pexels-photo-3993256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
         name: 'Jane Smith',
         text: "The customer service is top-notch. They went above and beyond to help me.",
       },
       {
-        image: '/testimonial3.jpg',
+        image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
         name: 'Alex Johnson',
         text: 'The quality and value for the price is unmatched. Highly recommended!',
       },
