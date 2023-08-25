@@ -1,9 +1,9 @@
-import Hero from "@/components/Hero/Hero";
+import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className=" max-w-[1500px] m-auto">
-      <Hero />
+    <main>
+      homePage
     </main>
   )
 }

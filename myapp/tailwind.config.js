@@ -7,32 +7,26 @@ module.exports = {
   ],
   theme: {
     extend: {
-      sectionPadding: {
-        p: "50px"
-      },
-      fontFamily: {
-        oswald: "Oswald, sans-serif",
-        urbanist: "Urbanist, sans-serif",
-    },
       colors: {
-        background: '#F7F7F7',         
-        primary: '#2A69AC',         
-        secondary: '#F27D42', 
-        
+        background: '#F7F7F7',        
+        primary: '#2A69AC',        
+        secondary: '#F27D42',
+       
         black: {
-          100: '#333333', 
+          100: '#333333',
           200: '#555555',
           300: '#777777',
           400: '#999999',
-          500: '#CCCCCC', 
+          500: '#CCCCCC',
           600: '#DDDDDD',
           700: '#EEEEEE',
           800: '#F5F5F5',
-          900: '#FAFAFA', 
+          900: '#FAFAFA',
         },
-        
-        red: '#E63946', 
+       
+        red: '#E63946',
       },
+ 
     },
   },
   plugins: [],
