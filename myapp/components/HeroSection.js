@@ -3,9 +3,9 @@ import React, { useState } from 'react';
 
 const HeroSection = () => {
   const images = [
-    'https://images.pexels.com/photos/1407354/pexels-photo-1407354.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    'https://images.pexels.com/photos/1464625/pexels-photo-1464625.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    'https://images.pexels.com/photos/11924647/pexels-photo-11924647.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    'https://images.pexels.com/photos/1126327/pexels-photo-1126327.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    'https://images.pexels.com/photos/1687504/pexels-photo-1687504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    'https://images.pexels.com/photos/1277031/pexels-photo-1277031.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
